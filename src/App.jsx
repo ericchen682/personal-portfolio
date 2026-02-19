@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Honors from './components/Honors'
 import Extracurriculars from './components/Extracurriculars'
 import Contact from './components/Contact'
-// import ThemeToggle from './components/ThemeToggle'
+import ThemeToggle from './components/ThemeToggle'
 import { about, experience, projects, honors, extracurriculars, contact } from './data/portfolio'
 
 export default function App() {
