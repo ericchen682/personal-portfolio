@@ -46,17 +46,35 @@ export const experience = [
 export const projects = [
   {
     title: 'cifar-10 cnn',
-    description: 'a cnn trained on the cifar-10 dataset',
-    tech: ['React', 'Node.js', 'PostgreSQL'],
-    link: 'https://github.com/you/repo',
-    linkLabel: 'Repo',
+    description: 'a logistic regression cnn trained to perform image classification on the cifar-10 dataset',
+    tech: ['python', 'pytorch', 'matplotlib', 'sklearn'],
+    links: [{ url: 'https://github.com/ericchen682/cifar-10-cnn', label: 'gh repo'},],
   },
   {
-    title: 'Project Two',
-    description: 'Another project: problem, solution, impact.',
-    tech: ['Python', 'FastAPI'],
-    link: 'https://example.com/demo',
-    linkLabel: 'Live Demo',
+    title: 'candid',
+    description: 'a real-time ai fact-checker used to fact-check presidential debate, interviewed by CBS News',
+    tech: ['python', 'fastapi', 'react'],
+    links: [{ url: 'https://www.cbsnews.com/sanfrancisco/news/amador-valley-high-seniors-develop-ai-tool-that-fact-checked-presidential-debate/', label: 'cbs interview'},],
+  },
+  {
+    title: 'noteworthy',
+    description: '1st overall @ hackakhan, personalized study plan maker w/ scheduling based on notes',
+    tech: ['tesseract.js', 'postgres', 'nextjs'],
+    links: [{url: 'https://github.com/WilyHyperion/KhanHacks2/tree/main/khanhacks', label: 'gh repo'},
+      {url:'https://devpost.com/software/noteworthy-og7cu9?_gl=1*6zlse5*_gcl_au*NTA5NzU0MzQ5LjE3NjU4NTQ1NjI.*_ga*OTg3OTM3NTAwLjE3NjU4NTQ1NjM.*_ga_0YHJK3Y10M*czE3NzE0ODc0MDAkbzkkZzEkdDE3NzE0ODc0MjIkajM4JGwwJGgw', label: 'devpost'}]
+  },
+  {
+    title: 'edumaximize',
+    description: '1st overall @ milpitas hacks, customized test generator for teachers to prevent cheating',
+    tech: ['restful apis', 'jspdf', 'figma', 'tailwind css'],
+    links: [{url: 'https://github.com/WilyHyperion/milpitashacks', label: 'gh repo'},
+      {url:'https://devpost.com/software/edumaximize?_gl=1*q07mzi*_gcl_au*NTA5NzU0MzQ5LjE3NjU4NTQ1NjI.*_ga*OTg3OTM3NTAwLjE3NjU4NTQ1NjM.*_ga_0YHJK3Y10M*czE3NzE0ODc0MDAkbzkkZzEkdDE3NzE0ODc0MzckajIzJGwwJGgw', label: 'devpost'}]
+  },
+  {
+    title: 'portfolio',
+    description: 'portfolio built w/ react + vite, hosted on netlify',
+    tech: ['react', 'vite', 'tailwind css'],
+    links: [{url: 'https://github.com/ericchen682/personal-portfolio', label: 'gh repo'}]
   },
 ];
 
