@@ -1,5 +1,3 @@
-import ThemeToggle from './ThemeToggle'
-
 const sections = [
   { id: 'about', label: 'about' },
   { id: 'experience', label: 'experience' },
@@ -9,7 +7,7 @@ const sections = [
   { id: 'contact', label: 'contact' },
 ];
 
-export default function Nav({ isDark, toggleTheme }) {
+export default function Nav() {
   return (
     <nav
       className="sticky top-0 z-10 bg-slate-50/95 dark:bg-slate-900/95 backdrop-blur border-b border-slate-200 dark:border-slate-700"
@@ -25,9 +23,6 @@ export default function Nav({ isDark, toggleTheme }) {
             {label}
           </a>
         ))}
-        <div className="absolute right-4 top-1/2 -translate-y-1/2">
-          <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} />
-        </div>
       </div>
     </nav>
   );

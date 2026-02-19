@@ -27,7 +27,10 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900">
-      <Nav isDark={isDark} toggleTheme={() => setIsDark(!isDark)} />
+      <div className="fixed top-0 right-4 z-20 h-[56px] flex items-center">
+        <ThemeToggle isDark={isDark} toggleTheme={() => setIsDark(!isDark)} />
+      </div>
+      <Nav />
       <main>
         <About data={about} />
         <Experience items={experience} />
