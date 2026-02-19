@@ -1,7 +1,7 @@
 export const about = {
   name: 'eric chen',
   headline: 'software engineer',
-  bio: 'hey, i\'m **eric**!\n\n i\'m currently an undergrad at **ucla** studying mathematics of computation. i\'m interested in **swe**, **ai/ml**, and **quant trading**. i love **competitive programming**, and my main strength probably lies in **data structures and algorithms in c++**. \n\nlately, i\'ve been working as a **qa engineering intern** at **deepiri**, a **usaco instructor** at **c0deex**, and performing **research** on how **reinforcement learning models** can convert their knowledge into english in order to **help humans learn** with **dr. ruoming jin** and **dr. feodor dragan**.\n\n outside of academics, i play poker, **chess**, pickleball, lift, **solve rubik\'s cubes**, fold origami, and (ocassionally) play tetris. if you\'re working on anything interesting, want to chat about any of my work, or simply want to say hi, feel free to [[reach out]]!',
+  bio: 'hey, i\'m **eric**!\n\n i\'m currently an undergrad at **ucla** studying mathematics of computation. i\'m interested in **swe**, **ai/ml**, and **quant trading**. i love **competitive programming**, and my main strength probably lies in **data structures and algorithms in c++**. \n\nlately, i\'ve been working as a **qa engineering intern** at **deepiri**, a **usaco instructor** at **c0deex**, and performing **research** on how **reinforcement learning models** can convert their knowledge into english in order to **help humans learn** with **dr. ruoming jin** and **dr. feodor dragan**.\n\n outside of academics, i play poker, **chess**, pickleball, **lift**, **solve rubik\'s cubes**, fold origami, and (ocassionally) play tetris. if you\'re working on anything interesting, want to chat about any of my work, or simply want to say hi, feel free to [[reach out]]!',
   image: '/profile.JPG', // optional: '/profile.jpg' in public/
 };
 
@@ -10,21 +10,34 @@ export const about = {
 
 export const experience = [
   {
-    title: 'Software Engineering Intern',
-    company: 'Company Name',
-    dates: 'Summer 2024',
+    title: 'qa engineering intern',
+    company: 'deepiri',
+    dates: 'dec 2025 - present',
     bullets: [
-      'Built feature X using Y.',
-      'Improved Z by N%.',
+      'verify functionality, security, + adherence to best practices of prs',
+      'designed + executed both manual + automated test cases w/ **jest**',
+      'deployed services locally w/ **docker** + **kubernetes** for integration + regression testing',
+      'worked w/ **scrum framework** w/ weekly team + org standups'
     ],
   },
   {
-    title: 'Teaching Assistant',
-    company: 'University Name',
-    dates: 'Fall 2023 – Spring 2024',
+    title: 'instructor',
+    company: 'c0deex',
+    dates: 'aug 2025 - present',
     bullets: [
-      'Led labs for CS 101.',
-      'Graded assignments and held office hours.',
+      'taught introductory usaco course, **data structs + algos** in **c++**',
+      'covered greedy, sliding window, bin search, stacks, queues, maps, etc.',
+    ],
+  },
+  {
+    title: 'server administrator',
+    company: 'math advance',
+    dates: 'jun 2022 - jul 2024',
+    bullets: [
+      'hosted math comps w/ **$10k+ in sponsorships** from jane street, wolfram alpha, mit beaver works, d.e. shaw & co, jetbrains, aops, 3blue1brown, & daily challenge w/ po-shen-loh',
+      'assissted in development of website w/ **200+ concurrent users** during contest times',
+      'physically set up **home server** + dealt w/ **hardware upkeep** + **ip routing**',
+      'set up email system w/ **postfix** + **dovecot**, serviced ~20 people'
     ],
   },
 ];
@@ -32,8 +45,8 @@ export const experience = [
 
 export const projects = [
   {
-    title: 'Project One',
-    description: 'Brief description of what it does and why it matters.',
+    title: 'cifar-10 cnn',
+    description: 'a cnn trained on the cifar-10 dataset',
     tech: ['React', 'Node.js', 'PostgreSQL'],
     link: 'https://github.com/you/repo',
     linkLabel: 'Repo',
