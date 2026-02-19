@@ -42,7 +42,7 @@ export default function Contact({ items }) {
   return (
     <section id="contact" className="py-12 sm:py-16">
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-6">contact</h2>
+        <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-6">contact me</h2>
         <div className="flex flex-wrap gap-4">
           {items.map((item, i) => (
             <a

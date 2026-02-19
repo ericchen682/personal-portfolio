@@ -96,7 +96,7 @@ export const extracurriculars = [
 
 
 export const contact = [
-  { icon: 'github', link: 'https://github.com/ericchen682', label: 'GitHub' },
-  { icon: 'linkedin', link: 'https://linkedin.com/in/eric-chen-ucla', label: 'LinkedIn' },
-  { icon: 'email', link: 'mailto:ericchen682@gmail.com', label: 'Email' },
+  { icon: 'github', link: 'https://github.com/ericchen682', label: 'github' },
+  { icon: 'linkedin', link: 'https://linkedin.com/in/eric-chen-ucla', label: 'linkedin' },
+  { icon: 'email', link: 'mailto:ericchen682@gmail.com', label: 'email' },
 ];
