@@ -2,7 +2,7 @@ export const about = {
   name: 'eric chen',
   headline: 'software engineer',
   bio: 'hey, i\'m **eric**!\n\n i\'m currently an undergrad at **ucla** studying mathematics of computation. i\'m interested in **swe**, **ai/ml**, and **quant trading**. i love **competitive programming**, and my main strength probably lies in **data structures and algorithms in c++**. \n\nlately, i\'ve been working as a **qa engineering intern** at **deepiri**, a **usaco instructor** at **c0deex**, and performing **research** on how **reinforcement learning models** can convert their knowledge into english in order to **help humans learn** with **dr. ruoming jin** and **dr. feodor dragan**.\n\n outside of academics, i play poker, **chess**, pickleball, lift, **solve rubik\'s cubes**, fold origami, and (ocassionally) play tetris. if you\'re working on anything interesting, want to chat about any of my work, or simply want to say hi, feel free to [[reach out]]!',
-  image: null, // optional: '/profile.jpg' in public/
+  image: '/profile.JPG', // optional: '/profile.jpg' in public/
 };
 
 // Contact: each item needs `link` (url) and `label` (e.g. "GitHub"). Use `icon` for built-in (github, linkedin, email, twitter, link) or `iconUrl` for a custom image URL.
