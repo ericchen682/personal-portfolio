@@ -2,7 +2,7 @@ export default function Experience({ items }) {
   return (
     <section id="experience" className="py-12 sm:py-16">
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-xl font-bold text-slate-900 mb-6">Experience</h2>
+        <h2 className="text-xl font-bold text-slate-900 mb-6">experience</h2>
         <ul className="space-y-8">
           {items.map((job, i) => (
             <li key={i} className="border-l-2 border-slate-200 pl-5 sm:pl-6">

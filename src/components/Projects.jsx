@@ -2,7 +2,7 @@ export default function Projects({ items }) {
   return (
     <section id="projects" className="py-12 sm:py-16">
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-xl font-bold text-slate-900 mb-6">Projects</h2>
+        <h2 className="text-xl font-bold text-slate-900 mb-6">projects</h2>
         <ul className="grid gap-6 sm:grid-cols-2">
           {items.map((project, i) => (
             <li
