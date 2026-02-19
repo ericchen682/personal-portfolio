@@ -91,7 +91,7 @@ export const honors = [
 export const extracurriculars = [
   { role: 'member', org: 'acm ai', period: 'sept 2025 – present', note: 'attend learning lectures, learn ai/ml concepts' },
   { role: 'cloud architect', org: 'aws cloud club', period: 'jan 2025 - present', note: 'attend weekly meetings + build products w/ aws cloud services' },
-  { role: 'secretary', org: 'avhs cubing club', period: 'aug 2022 - june 2024', note: 'arrange weekly meetings + organize mock competitions, competed + solved in 9.72 secs' },
+  { role: 'secretary', org: 'avhs cubing club', period: 'aug 2022 - june 2024', note: 'arrange weekly meetings + organize mock competitions, competed officially + solved in 8.89 secs' },
 ];
 
 
