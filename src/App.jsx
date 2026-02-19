@@ -4,7 +4,8 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Honors from './components/Honors'
 import Extracurriculars from './components/Extracurriculars'
-import { about, experience, projects, honors, extracurriculars } from './data/portfolio'
+import Contact from './components/Contact'
+import { about, experience, projects, honors, extracurriculars, contact } from './data/portfolio'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Projects items={projects} />
         <Honors items={honors} />
         <Extracurriculars items={extracurriculars} />
+        <Contact items={contact} />
       </main>
     </div>
   )

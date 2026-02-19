@@ -1,10 +1,10 @@
 const sections = [
-  { id: 'about', label: 'About' },
-  { id: 'experience', label: 'Experience' },
-  { id: 'projects', label: 'Projects' },
-  { id: 'honors', label: 'Honors & Awards' },
-  { id: 'extracurriculars', label: 'Extracurriculars' },
-  { id: 'contact', label: 'Contact' },
+  { id: 'about', label: 'about' },
+  { id: 'experience', label: 'experience' },
+  { id: 'projects', label: 'projects' },
+  { id: 'honors', label: 'honors & awards' },
+  { id: 'extracurriculars', label: 'extracurriculars' },
+  { id: 'contact', label: 'contact' },
 ];
 
 
