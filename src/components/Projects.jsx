@@ -21,16 +21,24 @@ export default function Projects({ items }) {
                   </span>
                 ))}
               </div>
-              {project.link && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-3 text-sm font-medium text-slate-700 hover:text-slate-900 underline focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 rounded"
-                >
-                  {project.linkLabel || 'Link'}
-                </a>
-              )}
+              {(() => {
+                const links = project.links || (project.link ? [{ url: project.link, label: project.linkLabel || 'Link' }] : []);
+                return links.length > 0 ? (
+                  <div className="mt-3 flex flex-wrap gap-4">
+                    {links.map((link, k) => (
+                      <a
+                        key={k}
+                        href={link.url || link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium text-slate-700 hover:text-slate-900 underline focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 rounded"
+                      >
+                        {link.label || link}
+                      </a>
+                    ))}
+                  </div>
+                ) : null;
+              })()}
             </li>
           ))}
         </ul>
