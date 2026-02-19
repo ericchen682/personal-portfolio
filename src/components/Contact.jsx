@@ -42,7 +42,7 @@ export default function Contact({ items }) {
   return (
     <section id="contact" className="py-12 sm:py-16">
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-xl font-bold text-slate-900 mb-6">contact</h2>
+        <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-6">contact</h2>
         <div className="flex flex-wrap gap-4">
           {items.map((item, i) => (
             <a
@@ -50,10 +50,10 @@ export default function Contact({ items }) {
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 transition-colors"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 hover:border-slate-300 dark:hover:border-slate-600 focus:outline-none focus:ring-2 focus:ring-slate-400 dark:focus:ring-slate-500 focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
               aria-label={item.label}
             >
-              <span className="text-slate-500 [&>svg]:w-6 [&>svg]:h-6 [&>img]:w-6 [&>img]:h-6">
+              <span className="text-slate-500 dark:text-slate-400 [&>svg]:w-6 [&>svg]:h-6 [&>img]:w-6 [&>img]:h-6">
                 <ContactIcon item={item} />
               </span>
               <span className="font-medium">{item.label}</span>
