@@ -26,7 +26,7 @@ export default function Nav({ isDark, toggleTheme }) {
           </a>
         ))}
         <div className="absolute right-4 top-1/2 -translate-y-1/2">
-          {/* <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} /> */}
+          <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} />
         </div>
       </div>
     </nav>
