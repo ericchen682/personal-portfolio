@@ -80,14 +80,18 @@ export const projects = [
 
 
 export const honors = [
-  { name: 'Dean\'s List', issuer: 'University Name', date: '2023–2024', note: 'Every semester.' },
-  { name: 'Hackathon Winner', issuer: 'Local Hackathon', date: '2024', note: 'Best use of API.' },
+  { name: 'dean\'s list', issuer: 'ucla', date: '', note: 'f25' },
+  { name: 'aime qualifier', issuer: 'maa', date: '', note: '3x qual, 1x w/ distinction' },
+  { name: 'usaco gold', issuer: 'usa computing olympiad', date: '', note: 'score of 750/1000 in gold div' },
+  { name: 'national merit scholarship finalist', issuer: 'nmsc', date: '', note: 'one of 15,000 selected nationwide' },
+  { name: 'avhs ptsa merit scholarship', issuer: 'amador valley hs', date: '', note: 'one of 7 selected for $1k scholarship' },
 ];
 
 
 export const extracurriculars = [
-  { role: 'Member', org: 'ACM / Programming Club', period: '2022 – present', note: 'Attend talks and practice problems.' },
-  { role: 'Volunteer', org: 'Code 2040 / Local Org', period: '2023', note: 'Mentored high school students in coding.' },
+  { role: 'member', org: 'acm ai', period: 'sept 2025 – present', note: 'attend learning lectures, learn ai/ml concepts' },
+  { role: 'cloud architect', org: 'aws cloud club', period: 'jan 2025 - present', note: 'attend weekly meetings + build products w/ aws cloud services' },
+  { role: 'secretary', org: 'avhs cubing club', period: 'aug 2022 - june 2024', note: 'arrange weekly meetings + organize mock competitions, competed + solved in 9.72 secs' },
 ];
 
 
