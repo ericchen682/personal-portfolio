@@ -32,8 +32,21 @@ export default function About({ data }) {
     <section id="about" className="py-12 sm:py-16">
       <div className="max-w-3xl mx-auto px-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-slate-100">{name}</h1>
-          <p className="text-slate-600 dark:text-slate-400 font-medium mt-1">{headline}</p>
+          <div className="flex items-start gap-4 sm:block">
+            <div className="flex-1 min-w-0">
+              <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-slate-100">{name}</h1>
+              <p className="text-slate-600 dark:text-slate-400 font-medium mt-1">{headline}</p>
+            </div>
+            {image && (
+              <div className="w-28 shrink-0 sm:hidden">
+                <img
+                  src={image}
+                  alt=""
+                  className="w-full h-auto rounded-lg object-cover"
+                />
+              </div>
+            )}
+          </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-stretch gap-6 sm:gap-8 mt-4">
             <div className="flex-1 min-w-0">
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed" style={{ whiteSpace: 'pre-line' }}>
@@ -41,11 +54,11 @@ export default function About({ data }) {
               </p>
             </div>
             {image && (
-              <div className="flex sm:min-h-0">
+              <div className="hidden sm:flex sm:min-h-0">
                 <img
                   src={image}
                   alt=""
-                  className="w-32 h-32 sm:w-56 sm:h-full sm:min-h-0 rounded-lg object-cover shrink-0"
+                  className="sm:w-56 sm:h-full sm:min-h-0 rounded-lg object-cover shrink-0"
                 />
               </div>
             )}
