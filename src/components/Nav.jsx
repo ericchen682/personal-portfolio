@@ -4,6 +4,7 @@ const sections = [
   { id: 'projects', label: 'Projects' },
   { id: 'honors', label: 'Honors & Awards' },
   { id: 'extracurriculars', label: 'Extracurriculars' },
+  { id: 'contact', label: 'Contact' },
 ];
 
 
