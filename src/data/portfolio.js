@@ -45,6 +45,12 @@ export const experience = [
 
 export const projects = [
   {
+    title: 'discover ucla',
+    description: 'a centralized hub for all ucla events, built w/ next.js + postgres + tailwind, hosted on vercel',
+    tech: ['next.js', 'postgres', 'restful apis', 'typescript'],
+    links: [{url: 'https://discover-ucla.vercel.app/', label: 'website'}, { url: 'https://github.com/ericchen682/discover-ucla', label: 'gh repo'}],
+  },
+  {
     title: 'cifar-10 cnn',
     description: 'a logistic regression cnn trained to perform image classification on the cifar-10 dataset',
     tech: ['python', 'pytorch', 'matplotlib', 'sklearn'],
@@ -72,9 +78,9 @@ export const projects = [
   },
   {
     title: 'portfolio',
-    description: 'portfolio built w/ react + vite, hosted on netlify',
+    description: 'responsive personal portfolio built w/ react + vite + tailwind, hosted on netlify',
     tech: ['react', 'vite', 'tailwind css'],
-    links: [{url: 'https://github.com/ericchen682/personal-portfolio', label: 'gh repo'}]
+    links: [{url: 'eric-chen-portfolio.netlify.app', label: 'website'}, {url: 'https://github.com/ericchen682/personal-portfolio', label: 'gh repo'}]
   },
 ];
 
