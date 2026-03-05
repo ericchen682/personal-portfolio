@@ -52,7 +52,7 @@ export const projects = [
   },
   {
     title: 'cifar-10 cnn',
-    description: 'a logistic regression cnn trained to perform image classification on the cifar-10 dataset',
+    description: 'a logistic regression cnn, classifies images in cifar-10 dataset w/ 79.3% accuracy',
     tech: ['python', 'pytorch', 'matplotlib', 'sklearn'],
     links: [{ url: 'https://github.com/ericchen682/cifar-10-cnn', label: 'gh repo'},],
   },
@@ -95,8 +95,9 @@ export const honors = [
 
 
 export const extracurriculars = [
+  { role: 'backend engineer', org: 'glitch', period: 'feb 2026 - present', note: 'building hive, a swipe-based housing app that meets your entire roommate group\'s needs'},
+  { role: 'cloud architect', org: 'aws cloud club', period: 'jan 2026 - present', note: 'building redirect, a flight finder using nova act ui automation' },
   { role: 'member', org: 'acm ai', period: 'sept 2025 – present', note: 'attend learning lectures, learn ai/ml concepts' },
-  { role: 'cloud architect', org: 'aws cloud club', period: 'jan 2025 - present', note: 'attend weekly meetings + build products w/ aws cloud services' },
   { role: 'secretary', org: 'avhs cubing club', period: 'aug 2022 - june 2024', note: 'arrange weekly meetings + organize mock competitions, competed + solved in 9.72 secs' },
 ];
 
