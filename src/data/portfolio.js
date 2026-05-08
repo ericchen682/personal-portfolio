@@ -10,6 +10,25 @@ export const about = {
 
 export const experience = [
   {
+    title: 'cloud architect - contract',
+    company: 'aws',
+    dates: 'apr 2026 - present',
+    bullets: [
+      'building **rag** system for ucla chatbot w/ aws',
+      'expanding aws **bedrock** knowledge base w/ web scraping',
+      'creating scheduled **lambda functions** to update existing knowledge base',
+    ],
+  },
+  {
+    title: 'ai researcher',
+    company: 'kent state university',
+    dates: 'feb 2026 - present',
+    bullets: [
+      'conducting **deep reinforcement learning** research w/ dr. ruoming jin & dr. feodor dragan',
+      'investigating **interpretable learning patterns** on models trained to solve rubik\'s cubes',
+    ],
+  },
+  {
     title: 'qa engineering intern',
     company: 'deepiri',
     dates: 'dec 2025 - present',
@@ -44,6 +63,12 @@ export const experience = [
 
 
 export const projects = [
+  {
+    title: 'redirect',
+    description: 'an autonomous flight recovery agent, built w/ next.js + fastapi + nova act ui',
+    tech: ['next.js', 'fastapi', 'nova act ui'],
+    links: [{url: 'https://github.com/Jshock14/Nova-AI-Hackathon', label: 'gh repo'},],
+  },
   {
     title: 'discover ucla',
     description: 'a centralized hub for all ucla events, built w/ next.js + postgres + tailwind, hosted on vercel',
@@ -86,7 +111,8 @@ export const projects = [
 
 
 export const honors = [
-  { name: 'dean\'s list', issuer: 'ucla', date: '', note: 'f25' },
+  { name: 'dean\'s list', issuer: 'ucla', date: '', note: 'f25, w25' },
+  { name: 'imc prosperity 4', issuer: 'imc', date: '', note: '#243 overall, #63 us, out of ~20k teams'},
   { name: 'aime qualifier', issuer: 'maa', date: '', note: '3x qual, 1x w/ distinction' },
   { name: 'usaco gold', issuer: 'usa computing olympiad', date: '', note: 'score of 750/1000 in gold div' },
   { name: 'national merit scholarship finalist', issuer: 'nmsc', date: '', note: 'one of 15,000 selected nationwide' },
@@ -95,10 +121,10 @@ export const honors = [
 
 
 export const extracurriculars = [
-  { role: 'backend engineer', org: 'glitch', period: 'feb 2026 - present', note: 'building hive, a swipe-based housing app that meets your entire roommate group\'s needs'},
   { role: 'cloud architect', org: 'aws cloud club', period: 'jan 2026 - present', note: 'building redirect, a flight finder using nova act ui automation' },
+  { role: 'backend engineer', org: 'glitch', period: 'feb 2026 - april 2026', note: 'building hive, a swipe-based housing app that meets your entire roommate group\'s needs'},
   { role: 'member', org: 'acm ai', period: 'sept 2025 – present', note: 'attend learning lectures, learn ai/ml concepts' },
-  { role: 'secretary', org: 'avhs cubing club', period: 'aug 2022 - june 2024', note: 'arrange weekly meetings + organize mock competitions, competed + solved in 9.72 secs' },
+  { role: 'secretary', org: 'avhs cubing club', period: 'aug 2022 - june 2024', note: 'arrange weekly meetings + organize mock competitions, competed + solved in 8.89 secs' },
 ];
 
 
