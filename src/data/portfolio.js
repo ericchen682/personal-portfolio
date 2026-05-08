@@ -62,6 +62,20 @@ export const experience = [
 ];
 
 
+export const education = [
+  {
+    school: 'university of california, los angeles (ucla)',
+    degree: 'b.s. in mathematics of computation',
+    dates: 'jun 2028 (expected) | gpa 4.0/4.0',
+    details: [
+      '**dean\'s honors list:** f25, w25',
+      '**relevant coursework:** upper div algos + complexity analysis, upper div prob + stats, software construction, computer organization, dsa, linalg, discrete math, multivar calc',
+      '**activities:** aws cloud club, glitch, acm ai, aca'
+    ],
+  },
+];
+
+
 export const projects = [
   {
     title: 'redirect',

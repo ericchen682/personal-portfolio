@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react'
 import Nav from './components/Nav'
 import About from './components/About'
+import Education from './components/Education'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Honors from './components/Honors'
 import Extracurriculars from './components/Extracurriculars'
 import Contact from './components/Contact'
 import ThemeToggle from './components/ThemeToggle'
-import { about, experience, projects, honors, extracurriculars, contact } from './data/portfolio'
+import { about, education, experience, projects, honors, extracurriculars, contact } from './data/portfolio'
 
 export default function App() {
   const [isDark, setIsDark] = useState(() => {
@@ -33,6 +34,7 @@ export default function App() {
       <Nav />
       <main>
         <About data={about} />
+        <Education items={education} />
         <Experience items={experience} />
         <Projects items={projects} />
         <Honors items={honors} />
