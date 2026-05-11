@@ -1,7 +1,7 @@
 export const about = {
   name: 'eric chen',
   headline: 'software engineer',
-  bio: 'hey, i\'m **eric**!\n\n i\'m currently an undergrad at **ucla** studying mathematics of computation. i\'m interested in **swe**, **ai/ml**, and **quant trading**. i love **competitive programming**, and my main strength probably lies in **data structures and algorithms in c++**. \n\nlately, i\'ve been working as a **qa engineering intern** at **deepiri**, a **usaco instructor** at **c0deex**, and performing **research** on how **reinforcement learning models** can convert their knowledge into english in order to **help humans learn** with **dr. ruoming jin** and **dr. feodor dragan**.\n\n outside of academics, i play poker, **chess**, pickleball, **lift**, **solve rubik\'s cubes**, fold origami, and (ocassionally) play tetris. if you\'re working on anything interesting, want to chat about any of my work, or simply want to say hi, feel free to [[reach out]]!',
+  bio: 'hey, i\'m **eric**!\n\n i\'m currently an undergrad at **ucla** studying mathematics of computation. i\'m interested in **swe**, **ai/ml**, and **quant trading**. i love **competitive programming**, and my main strength probably lies in **data structures and algorithms in c++**. \n\nlately, i\'ve been working as a **cloud architect contractor** for **aws**, **qa engineering intern** at **deepiri**, a **usaco instructor** at **c0deex**, and performing **research** on how **reinforcement learning models** can convert their knowledge into english in order to **help humans learn** with **dr. ruoming jin** and **dr. feodor dragan**.\n\n outside of academics, i play poker, **chess**, pickleball, **lift**, **solve rubik\'s cubes**, fold origami, and (ocassionally) play tetris. if you\'re working on anything interesting, want to chat about any of my work, or simply want to say hi, feel free to [[reach out]]!',
   image: '/profile.JPG', // optional: '/profile.jpg' in public/
 };
 
@@ -70,7 +70,7 @@ export const education = [
     details: [
       '**dean\'s honors list:** f25, w25',
       '**relevant coursework:** upper div algos + complexity analysis, upper div prob + stats, software construction, computer organization, dsa, linalg, discrete math, multivar calc',
-      '**activities:** aws cloud club, glitch, acm ai, aca'
+      '**activities:** aws cloud club, acm ai, aca'
     ],
   },
 ];
@@ -126,9 +126,12 @@ export const projects = [
 
 export const honors = [
   { name: 'dean\'s list', issuer: 'ucla', date: '', note: 'f25, w25' },
-  { name: 'imc prosperity 4', issuer: 'imc', date: '', note: '#243 overall, #63 us, out of ~20k teams'},
+  { name: '1st at codesprint la', issuer: 'acm icpc', date: '', note: 'competitive programming contest, sponsored by jane street, citadel securities, hrt, and ucla samueli'},
+  { name: 'imc prosperity 4', issuer: 'imc', date: '', note: 'algorithmic trading comp, top 0.4% in qualifiers, top 1.3% final round'},
   { name: 'aime qualifier', issuer: 'maa', date: '', note: '3x qual, 1x w/ distinction' },
   { name: 'usaco gold', issuer: 'usa computing olympiad', date: '', note: 'score of 750/1000 in gold div' },
+  { name: '1st at hackakhan', issuer: 'hackakhan', date: '', note: 'sponsored by khan academy, wolfram alpha, aops' },
+  { name: '1st at milpitas hacks', issuer: 'milpitas hacks', date: '', note: 'sponsored by echo3d, hack club, wavity' },
   { name: 'national merit scholarship finalist', issuer: 'nmsc', date: '', note: 'one of 15,000 selected nationwide' },
   { name: 'avhs ptsa merit scholarship', issuer: 'amador valley hs', date: '', note: 'one of 7 selected for $1k scholarship' },
 ];
@@ -136,7 +139,7 @@ export const honors = [
 
 export const extracurriculars = [
   { role: 'cloud architect', org: 'aws cloud club', period: 'jan 2026 - present', note: 'building redirect, a flight finder using nova act ui automation' },
-  { role: 'backend engineer', org: 'glitch', period: 'feb 2026 - april 2026', note: 'building hive, a swipe-based housing app that meets your entire roommate group\'s needs'},
+  // { role: 'backend engineer', org: 'glitch', period: 'feb 2026 - april 2026', note: 'building hive, a swipe-based housing app that meets your entire roommate group\'s needs'},
   { role: 'member', org: 'acm ai', period: 'sept 2025 – present', note: 'attend learning lectures, learn ai/ml concepts' },
   { role: 'secretary', org: 'avhs cubing club', period: 'aug 2022 - june 2024', note: 'arrange weekly meetings + organize mock competitions, competed + solved in 8.89 secs' },
 ];
