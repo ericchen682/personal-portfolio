@@ -14,6 +14,16 @@
     -webkit-text-size-adjust: 100%;
   }
 
+  /* Hide scrollbars everywhere while keeping scroll functionality */
+  * {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE / legacy Edge */
+  }
+
+  *::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
+
   body {
     @apply bg-bg text-foreground font-sans antialiased;
     background-image:

@@ -32,7 +32,7 @@ export default function Hero() {
         </div>
 
         <div className="animate-fade-up md:justify-self-end">
-          <pre className="card w-full max-w-md overflow-x-auto p-5 font-mono text-sm leading-relaxed shadow-glow">
+          <pre className="card w-full max-w-md whitespace-pre-wrap break-words p-4 font-mono text-xs leading-relaxed shadow-glow sm:p-5 sm:text-sm">
             <code>
               <span className="text-subtle">{"{"}</span>
               {"\n"}
