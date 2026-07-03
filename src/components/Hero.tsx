@@ -72,7 +72,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <div className="overflow-x-auto py-5 pl-4 font-mono text-[13px] leading-7 sm:text-sm">
+            <div className="overflow-x-auto py-7 pl-4 font-mono text-[13px] leading-8 sm:text-sm">
               {codeLines.map((line, i) => (
                 <div key={i} className="flex">
                   <span
