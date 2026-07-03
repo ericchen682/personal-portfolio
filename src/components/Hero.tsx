@@ -1,7 +1,34 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, FileCode2 } from "lucide-react";
+import type { ReactNode } from "react";
 import { aboutMe } from "../data/portfolio";
 
 export default function Hero() {
+  const codeLines: ReactNode[] = [
+    <span className="italic text-subtle/60">// developer profile</span>,
+    <span className="text-subtle">{"{"}</span>,
+    <>
+      {"  "}
+      <span className="text-accent">"name"</span>
+      <span className="text-subtle">: </span>
+      <span className="text-foreground">"{aboutMe.name}"</span>
+      <span className="text-subtle">,</span>
+    </>,
+    <>
+      {"  "}
+      <span className="text-accent">"role"</span>
+      <span className="text-subtle">: </span>
+      <span className="text-foreground">"{aboutMe.role}"</span>
+      <span className="text-subtle">,</span>
+    </>,
+    <>
+      {"  "}
+      <span className="text-accent">"focus"</span>
+      <span className="text-subtle">: </span>
+      <span className="text-foreground">"{aboutMe.focus}"</span>
+    </>,
+    <span className="text-subtle">{"}"}</span>,
+  ];
+
   return (
     <section id="top" className="relative flex min-h-[92vh] items-center pt-16">
       <div className="container-tight grid items-center gap-12 md:grid-cols-2">
@@ -29,37 +56,39 @@ export default function Hero() {
         </div>
 
         <div className="animate-fade-up md:justify-self-end">
-          <pre className="card w-full max-w-md whitespace-pre-wrap break-words p-4 font-mono text-xs leading-relaxed shadow-glow sm:p-5 sm:text-sm">
-            <code>
-              <span className="text-subtle">{"{"}</span>
-              {"\n"}
-              {"  "}
-              <span className="text-accent">"about_me"</span>
-              <span className="text-subtle">: {"{"}</span>
-              {"\n"}
-              {"    "}
-              <span className="text-accent">"name"</span>
-              <span className="text-subtle">: </span>
-              <span className="text-foreground">"{aboutMe.name}"</span>
-              <span className="text-subtle">,</span>
-              {"\n"}
-              {"    "}
-              <span className="text-accent">"role"</span>
-              <span className="text-subtle">: </span>
-              <span className="text-foreground">"{aboutMe.role}"</span>
-              <span className="text-subtle">,</span>
-              {"\n"}
-              {"    "}
-              <span className="text-accent">"focus"</span>
-              <span className="text-subtle">: </span>
-              <span className="text-foreground">"{aboutMe.focus}"</span>
-              {"\n"}
-              {"  "}
-              <span className="text-subtle">{"}"}</span>
-              {"\n"}
-              <span className="text-subtle">{"}"}</span>
-            </code>
-          </pre>
+          <div className="w-full max-w-lg overflow-hidden rounded-xl border border-border/60 bg-[#0B1120] shadow-glow ring-1 ring-black/40">
+            <div className="flex items-center border-b border-border/50 bg-surface/50 px-4 py-3">
+              <span className="flex items-center gap-1.5">
+                <span className="h-3 w-3 rounded-full bg-red-400/80" />
+                <span className="h-3 w-3 rounded-full bg-amber-400/80" />
+                <span className="h-3 w-3 rounded-full bg-emerald-400/80" />
+              </span>
+              <span className="ml-4 flex items-center gap-1.5 rounded-md bg-muted/70 px-2.5 py-1 font-mono text-xs text-foreground/80">
+                <FileCode2 size={13} className="text-accent" />
+                about_me.json
+              </span>
+            </div>
+
+            <div className="flex overflow-x-auto text-[13px] leading-7 sm:text-sm">
+              <div
+                aria-hidden="true"
+                className="select-none border-r border-border/40 py-5 pl-4 pr-3 text-right font-mono text-subtle/40"
+              >
+                {codeLines.map((_, i) => (
+                  <div key={i}>{i + 1}</div>
+                ))}
+              </div>
+              <pre className="flex-1 py-5 pl-4 pr-6 font-mono">
+                <code>
+                  {codeLines.map((line, i) => (
+                    <div key={i} className="min-h-[1.75rem]">
+                      {line}
+                    </div>
+                  ))}
+                </code>
+              </pre>
+            </div>
+          </div>
         </div>
       </div>
 
