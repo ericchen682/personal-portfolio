@@ -31,7 +31,7 @@ export default function Hero() {
 
   return (
     <section id="top" className="relative flex min-h-[92vh] items-center pt-16">
-      <div className="container-tight grid items-center gap-10 md:grid-cols-[0.7fr_1.3fr]">
+      <div className="container-tight grid items-center gap-10 md:grid-cols-[0.95fr_1.05fr]">
         <div className="animate-fade-up">
           <p className="section-label mb-4">Hello!</p>
           <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
@@ -72,24 +72,18 @@ export default function Hero() {
               </span>
             </div>
 
-            <div className="flex overflow-x-auto text-[13px] leading-7 sm:text-sm">
-              <div
-                aria-hidden="true"
-                className="select-none border-r border-border/40 py-5 pl-4 pr-3 text-right font-mono text-subtle/40"
-              >
-                {codeLines.map((_, i) => (
-                  <div key={i}>{i + 1}</div>
-                ))}
-              </div>
-              <pre className="flex-1 py-5 pl-4 pr-6 font-mono">
-                <code>
-                  {codeLines.map((line, i) => (
-                    <div key={i} className="min-h-[1.75rem]">
-                      {line}
-                    </div>
-                  ))}
-                </code>
-              </pre>
+            <div className="overflow-x-auto py-5 pl-4 font-mono text-[13px] leading-7 sm:text-sm">
+              {codeLines.map((line, i) => (
+                <div key={i} className="flex">
+                  <span
+                    aria-hidden="true"
+                    className="mr-4 w-6 shrink-0 select-none border-r border-border/40 pr-3 text-right text-subtle/40"
+                  >
+                    {i + 1}
+                  </span>
+                  <span className="flex-1 whitespace-pre pr-6">{line}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
