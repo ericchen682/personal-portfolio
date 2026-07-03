@@ -31,7 +31,7 @@ export default function Hero() {
 
   return (
     <section id="top" className="relative flex min-h-[92vh] items-center pt-16">
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-5 sm:px-8 md:grid-cols-[0.85fr_1.15fr] 2xl:max-w-[1440px]">
+      <div className="container-tight grid items-center gap-10 md:grid-cols-[0.75fr_1.25fr]">
         <div className="animate-fade-up">
           <p className="section-label mb-4">Hello!</p>
           <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
 
         <div className="animate-fade-up md:justify-self-end">
-          <div className="w-full max-w-xl overflow-hidden rounded-xl border border-border/60 bg-[#0B1120] shadow-glow ring-1 ring-black/40 2xl:max-w-3xl">
+          <div className="w-full overflow-hidden rounded-xl border border-border/60 bg-[#0B1120] shadow-glow ring-1 ring-black/40">
             <div className="flex items-center border-b border-border/50 bg-surface/50 px-4 py-3">
               <span className="flex items-center gap-1.5">
                 <span className="h-3 w-3 rounded-full bg-red-400/80" />
