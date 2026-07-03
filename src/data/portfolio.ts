@@ -48,9 +48,9 @@ export interface SocialLink {
 export const aboutMe: AboutMe = {
   name: "Eric Chen",
   location: "Los Angeles, CA",
-  role: "Software Engineer & Quant",
+  role: "CS + Math @ UCLA",
   focus: "AI Systems / Full-Stack / Quantitative",
-  status: "CS + Math @ UCLA",
+  status: "GPA 4.0 \u00B7 Dean's List",
 };
 
 export const bio =

@@ -11,15 +11,15 @@ export default {
         border: "#475569",
         foreground: "#F8FAFC",
         subtle: "#94A3B8",
-        accent: "#22C55E",
-        "accent-dim": "#16A34A",
+        accent: "#F97316",
+        "accent-dim": "#EA580C",
       },
       fontFamily: {
         mono: ['"JetBrains Mono"', "ui-monospace", "SFMono-Regular", "monospace"],
         sans: ['"IBM Plex Sans"', "ui-sans-serif", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        glow: "0 0 24px rgba(34, 197, 94, 0.25)",
+        glow: "0 0 24px rgba(249, 115, 22, 0.25)",
       },
       keyframes: {
         marquee: {
