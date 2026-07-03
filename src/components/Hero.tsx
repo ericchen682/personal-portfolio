@@ -11,9 +11,6 @@ export default function Hero() {
             {aboutMe.name}
           </h1>
           <p className="mt-4 max-w-md font-mono text-lg text-accent glow-text">{aboutMe.role}</p>
-          <p className="mt-4 max-w-md text-subtle">
-            {aboutMe.status} &middot; {aboutMe.location}
-          </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
@@ -56,12 +53,6 @@ export default function Hero() {
               <span className="text-accent">"focus"</span>
               <span className="text-subtle">: </span>
               <span className="text-foreground">"{aboutMe.focus}"</span>
-              <span className="text-subtle">,</span>
-              {"\n"}
-              {"    "}
-              <span className="text-accent">"status"</span>
-              <span className="text-subtle">: </span>
-              <span className="text-foreground">"{aboutMe.status}"</span>
               {"\n"}
               {"  "}
               <span className="text-subtle">{"}"}</span>

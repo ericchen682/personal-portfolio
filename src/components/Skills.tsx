@@ -33,7 +33,7 @@ function MarqueeRow({
 
 export default function Skills() {
   return (
-    <section aria-label="Skills" className="border-y border-border/40 bg-surface/20 py-12">
+    <section aria-label="Skills" className="border-y border-border/30 bg-surface/30 py-12">
       <div className="space-y-2">
         <MarqueeRow items={marqueeLanguages} render={(i) => `<${i}>`} />
         <MarqueeRow items={marqueeTags} reverse render={(i) => `[${i}]`} />

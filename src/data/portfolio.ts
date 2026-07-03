@@ -3,7 +3,6 @@ export interface AboutMe {
   location: string;
   role: string;
   focus: string;
-  status: string;
 }
 
 export interface EducationInfo {
@@ -52,8 +51,7 @@ export const aboutMe: AboutMe = {
   name: "Eric Chen",
   location: "Los Angeles, CA",
   role: "CS + Math @ UCLA",
-  focus: "AI Systems / Full-Stack / Quantitative",
-  status: "Open to internships & research",
+  focus: "SWE / Quant",
 };
 
 export const bio =
@@ -81,9 +79,6 @@ export const education: EducationInfo = {
     "Member of ACA",
   ],
 };
-
-export const quote =
-  "\"If I have the belief that I can do it, I shall surely acquire the capacity to do it even if I may not have it at the beginning.\"";
 
 export const experience: ExperienceItem[] = [
   {

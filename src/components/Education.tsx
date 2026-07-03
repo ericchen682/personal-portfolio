@@ -3,7 +3,7 @@ import { education } from "../data/portfolio";
 
 export default function Education() {
   return (
-    <section id="education" className="scroll-mt-20 py-24">
+    <section id="education" className="scroll-mt-20 border-y border-border/30 bg-surface/30 py-24">
       <div className="container-tight">
         <p className="section-label reveal">// education</p>
         <h2 className="reveal mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Education</h2>
