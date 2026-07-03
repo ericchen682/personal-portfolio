@@ -6,11 +6,14 @@ export interface AboutMe {
   status: string;
 }
 
-export interface TimelineEntry {
+export interface EducationInfo {
+  school: string;
+  degree: string;
   period: string;
-  title: string;
-  summary: string;
-  highlights: string[];
+  gpa: string;
+  deansList: string;
+  coursework: string[];
+  activities: string[];
 }
 
 export interface ExperienceItem {
@@ -50,47 +53,37 @@ export const aboutMe: AboutMe = {
   location: "Los Angeles, CA",
   role: "CS + Math @ UCLA",
   focus: "AI Systems / Full-Stack / Quantitative",
-  status: "GPA 4.0 \u00B7 Dean's List",
+  status: "Open to internships & research",
 };
 
 export const bio =
-  "I'm a Computer Science and Mathematics student at UCLA (GPA 4.0) who likes building things at the intersection of software, AI, and quantitative problem-solving \u2014 from RAG systems and browser-automation microservices to competitive trading and algorithms.";
+  "I'm a Computer Science and Mathematics student at UCLA who likes building things at the intersection of software, AI, and quantitative problem-solving \u2014 from RAG systems and browser-automation microservices to competitive trading and algorithms.";
+
+export const education: EducationInfo = {
+  school: "University of California, Los Angeles",
+  degree: "B.S. Computer Science + B.S. Mathematics",
+  period: "Expected June 2028",
+  gpa: "4.0 / 4.0",
+  deansList: "Dean's List: F25, W26, S26",
+  coursework: [
+    "Upper Div Data Structures & Algorithms",
+    "Upper Div Probability & Statistics",
+    "Computer Organization",
+    "Software Construction",
+    "Discrete Math",
+    "Linear Algebra",
+    "Multivariable Calculus",
+  ],
+  activities: [
+    "Cloud Architect @ AWS Cloud Club",
+    "Backend Developer @ GLITCH",
+    "Member of ACM AI",
+    "Member of ACA",
+  ],
+};
 
 export const quote =
   "\"If I have the belief that I can do it, I shall surely acquire the capacity to do it even if I may not have it at the beginning.\"";
-
-export const timeline: TimelineEntry[] = [
-  {
-    period: "2026 \u2014 Present",
-    title: "Shipping systems at scale",
-    summary: "Turning research and infrastructure into real products.",
-    highlights: [
-      "\uD83D\uDCBC Technical Program Manager Intern @ Tesla \u2014 shipping employee-facing programs end-to-end",
-      "\u2601\uFE0F Cloud Architect @ AWS \u2014 built a RAG chatbot knowledge base, cut latency by 23%",
-      "\uD83E\uDDE0 AI Researcher @ Kent State \u2014 interpretable deep RL on Rubik's Cube solvers",
-    ],
-  },
-  {
-    period: "2025 \u2014 2026",
-    title: "Engineering, research, and competition",
-    summary: "Balancing coursework with real engineering and contests.",
-    highlights: [
-      "\uD83E\uDDEA QA Engineering Intern @ Deepiri \u2014 40+ PR reviews, Jest/Cypress, Docker + Kubernetes",
-      "\uD83C\uDFC6 IMC Prosperity 4 Finalist \u2014 Top 1.3% final round, Top 0.4% qualifying",
-      "\uD83E\uDD47 1st at Codesprint LA & Hackakhan \u2014 sponsored by Jane Street, Citadel, HRT, and more",
-    ],
-  },
-  {
-    period: "2024 \u2014 2025",
-    title: "Started at UCLA",
-    summary: "Diving into CS + Math with a 4.0 and Dean's List.",
-    highlights: [
-      "\uD83C\uDF93 B.S. Computer Science + B.S. Mathematics \u2014 GPA 4.0/4.0, Dean's List F25/W26/S26",
-      "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Cloud Architect @ AWS Cloud Club, Backend Dev @ GLITCH, ACM AI & ACA",
-      "\uD83C\uDFC5 USACO Gold (750/1000), 3x AIME, National Merit Scholarship Finalist",
-    ],
-  },
-];
 
 export const experience: ExperienceItem[] = [
   {
