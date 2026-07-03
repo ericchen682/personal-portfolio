@@ -221,7 +221,7 @@ export const marqueeTags: string[] = [
 ];
 
 export const socials: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/", icon: "github" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/", icon: "linkedin" },
-  { label: "Email", href: "mailto:you@example.com", icon: "mail" },
+  { label: "GitHub", href: "https://github.com/ericchen682", icon: "github" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/eric-chen-ucla/", icon: "linkedin" },
+  { label: "Email", href: "mailto:eric.chen682@gmail.com", icon: "mail" },
 ];
