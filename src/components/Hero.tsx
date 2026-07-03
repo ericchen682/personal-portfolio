@@ -8,9 +8,9 @@ export default function Hero() {
         <div className="animate-fade-up">
           <p className="section-label mb-4">Hello!</p>
           <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            {aboutMe.name}
+            I'm {aboutMe.name}
           </h1>
-          <p className="mt-4 max-w-md font-mono text-lg text-accent glow-text">{aboutMe.role}</p>
+          <p className="mt-4 max-w-md font-mono text-lg text-accent glow-text">Studying {aboutMe.role}</p>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
