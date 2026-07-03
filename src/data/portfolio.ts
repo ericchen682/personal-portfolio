@@ -177,7 +177,7 @@ export const honors: Honor[] = [
   { title: "1st at Codesprint LA", detail: "Sponsored by Jane Street, Citadel, HRT, and more" },
   { title: "1st Overall at Hackakhan", detail: "Sponsored by Khan Academy, Wolfram Alpha, AoPS" },
   { title: "National Merit Finalist", detail: "National Merit Scholarship Program" },
-  { title: "1st at Milpitas Hacks", detail: "Hackathon champion" },
+  { title: "1st at Milpitas Hacks", detail: "Sponsored by echo3D, Hack Club, Wavity" },
   { title: "AWS YouthTech Winner", detail: "Recognized for cloud innovation" },
 ];
 
