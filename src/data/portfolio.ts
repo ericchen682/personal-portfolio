@@ -85,9 +85,11 @@ export const experience: ExperienceItem[] = [
     role: "Technical Program Manager Intern",
     company: "Tesla",
     location: "Palo Alto, CA",
-    period: "Jun 2026 \u2014 Present",
+    period: "Jun 2026 \u2014 Sept 2026",
     points: [
-      "Designing and shipping employee-facing programs and the underlying systems, owning outcomes end-to-end.",
+      "Scoped and shipped recruiter-driven dashboard improvements end-to-end, serving 750+ daily users.",
+      "Drove agentic workflows from discovery to delivery, automating manual tasks for 50+ recruiters.",
+      "Designed a materialized cache for an endpoint with 25,000+ weekly requests, reducing latency by 97%.",
     ],
   },
   {
