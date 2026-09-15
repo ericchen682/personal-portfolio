@@ -93,6 +93,16 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
+    role: "Open Source Contributor",
+    company: "ACM ICPC Preparation",
+    location: "Remote",
+    period: "Jul 2026 — Present",
+    points: [
+      "Contributing to an educational competitive programming repository with 2,500+ stars and 500+ forks.",
+      "Writing C++ solutions to competitive programming problems and providing educational materials.",
+    ],
+  },
+  {
     role: "Cloud Architect (Contract)",
     company: "Amazon Web Services",
     location: "Los Angeles, CA",
