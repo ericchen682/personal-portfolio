@@ -125,27 +125,6 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    role: "QA Engineering Intern",
-    company: "Deepiri",
-    location: "Pittsburgh, PA",
-    period: "Dec 2025 \u2014 Present",
-    points: [
-      "Reviewed 40+ pull requests, ensured adherence to best practices, and designed test cases with Jest and Cypress.",
-      "Deployed services locally with Docker and Kubernetes for integration and regression testing.",
-    ],
-  },
-  {
-    role: "Instructor",
-    company: "C0deEX",
-    location: "Acton, MA (Remote)",
-    period: "Aug 2025 \u2014 May 2026",
-    points: [
-      "Taught a USACO course covering data structures and algorithms in C++ (part-time, 10 mos).",
-      "Covered data structures including stacks, queues, lists, hash maps, trees, and vectors.",
-      "Covered algorithmic concepts including time complexity, greedy algorithms, sliding window, and binary search.",
-    ],
-  },
-  {
     role: "Server Administrator",
     company: "Math Advance",
     location: "Pleasanton, CA",
