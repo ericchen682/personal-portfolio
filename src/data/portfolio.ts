@@ -85,9 +85,21 @@ export const experience: ExperienceItem[] = [
     role: "Technical Program Manager Intern",
     company: "Tesla",
     location: "Palo Alto, CA",
-    period: "Jun 2026 \u2014 Present",
+    period: "Jun 2026 \u2014 Sept 2026",
     points: [
-      "Designing and shipping employee-facing programs and the underlying systems, owning outcomes end-to-end.",
+      "Scoped and shipped recruiter-driven dashboard improvements end-to-end, serving 750+ daily users.",
+      "Drove agentic workflows from discovery to delivery, automating manual tasks for 50+ recruiters.",
+      "Designed a materialized cache for an endpoint with 25,000+ weekly requests, reducing latency by 97%.",
+    ],
+  },
+  {
+    role: "Open Source Contributor",
+    company: "ACM ICPC Preparation",
+    location: "Remote",
+    period: "Jul 2026 — Present",
+    points: [
+      "Contributing to an educational competitive programming repository with 2,500+ stars and 500+ forks.",
+      "Writing C++ solutions to competitive programming problems and providing educational materials.",
     ],
   },
   {
@@ -110,27 +122,6 @@ export const experience: ExperienceItem[] = [
       "Conducted deep reinforcement learning research under Dr. Ruoming Jin and Dr. Feodor Dragan.",
       "Investigated interpretable learning patterns within models trained to solve Rubik's Cubes.",
       "Identified and validated strategies transferable to human learning and decision-making.",
-    ],
-  },
-  {
-    role: "QA Engineering Intern",
-    company: "Deepiri",
-    location: "Pittsburgh, PA",
-    period: "Dec 2025 \u2014 Present",
-    points: [
-      "Reviewed 40+ pull requests, ensured adherence to best practices, and designed test cases with Jest and Cypress.",
-      "Deployed services locally with Docker and Kubernetes for integration and regression testing.",
-    ],
-  },
-  {
-    role: "Instructor",
-    company: "C0deEX",
-    location: "Acton, MA (Remote)",
-    period: "Aug 2025 \u2014 May 2026",
-    points: [
-      "Taught a USACO course covering data structures and algorithms in C++ (part-time, 10 mos).",
-      "Covered data structures including stacks, queues, lists, hash maps, trees, and vectors.",
-      "Covered algorithmic concepts including time complexity, greedy algorithms, sliding window, and binary search.",
     ],
   },
   {
