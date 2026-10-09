@@ -1,12 +1,6 @@
+# Static site, no real build step. The Netlify UI still has the old Vite
+# settings (publish "dist"), and publishing the repo root from here does not
+# override them, so copy every tracked file into dist and publish that.
 [build]
-  command = "npm run build"
+  command = "mkdir -p dist && git archive HEAD | tar -x -C dist"
   publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "20"
-
-# SPA / anchor-routing fallback
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200

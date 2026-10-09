@@ -1,0 +1,145 @@
+:root {
+  --bg: #fdfdfc;
+  --text: #1a1a1a;
+  --muted: #767676;
+  --rule: #e6e6e3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111110;
+    --text: #ededeb;
+    --muted: #8c8c88;
+    --rule: #2a2a28;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide the scrollbar; the page still scrolls */
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 5rem;
+}
+
+h1,
+h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+section h2 {
+  color: var(--muted);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-top: 3.5rem;
+}
+
+article {
+  margin-top: 1.5rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.intro {
+  margin-top: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li + li {
+  margin-top: 0.75rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.row .muted {
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.15s;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.links {
+  display: flex;
+  gap: 1.25rem;
+}
+
+/* Essays */
+article .muted {
+  margin-bottom: 1.5rem;
+}
+
+article ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+article ul ul {
+  list-style: circle;
+  margin-top: 0.5rem;
+}
+
+article li + li {
+  margin-top: 0.5rem;
+}
+
+article p + p {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 30rem) {
+  main {
+    padding-top: 3.5rem;
+  }
+}
